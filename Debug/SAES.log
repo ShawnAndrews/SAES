@@ -1,0 +1,36 @@
+﻿Build started 4/30/2016 7:16:05 PM.
+     1>Project "C:\Users\ShawnDesktop\Documents\Visual Studio 2015\Projects\SAES\SAES\SAES.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Intel\OpenCL SDK\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(112): warning C4244: '=': conversion from 'double' to '_saes64', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(125): warning C4244: 'initializing': conversion from '_saes64' to 'unsigned int', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(126): warning C4244: 'initializing': conversion from '_saes64' to 'unsigned int', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(127): warning C4244: 'initializing': conversion from '_saes64' to 'int', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(129): warning C4244: 'argument': conversion from '_saes64' to 'size_t', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(140): warning C4244: 'argument': conversion from '_saes64' to 'size_t', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(164): warning C4244: 'argument': conversion from '_saes64' to 'const int', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(167): warning C4244: 'argument': conversion from '_saes64' to 'size_t', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(196): warning C4244: 'argument': conversion from '_saes64' to 'size_t', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(227): warning C4244: 'initializing': conversion from '_saes64' to 'int', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(239): warning C4244: 'argument': conversion from '_saes64' to 'size_t', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(246): warning C4244: 'argument': conversion from '_saes64' to 'size_t', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(317): warning C4244: '=': conversion from 'double' to '_saes64', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(319): warning C4244: '=': conversion from 'double' to '_saes64', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(347): warning C4244: 'initializing': conversion from '_saes64' to 'int', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(362): warning C4244: 'argument': conversion from '_saes64' to 'size_t', possible loss of data
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(181): warning C4101: 'dev_b': unreferenced local variable
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(181): warning C4101: 'dev_c': unreferenced local variable
+     1>c:\users\shawndesktop\documents\visual studio 2015\projects\saes\saes\main.cpp(181): warning C4101: 'dev_a': unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ShawnDesktop\Documents\Visual Studio 2015\Projects\SAES\Debug\SAES.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\OpenCL SDK\lib\x86" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" OpenCL.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ShawnDesktop\Documents\Visual Studio 2015\Projects\SAES\Debug\SAES.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ShawnDesktop\Documents\Visual Studio 2015\Projects\SAES\Debug\SAES.lib" /MACHINE:X86 Debug\CommandLineParser.obj
+         Debug\CTimer.obj
+         Debug\GPU.obj
+         Debug\main.obj
+         Debug\SAES.obj
+         SAES.vcxproj -> C:\Users\ShawnDesktop\Documents\Visual Studio 2015\Projects\SAES\Debug\SAES.exe
+     1>Done Building Project "C:\Users\ShawnDesktop\Documents\Visual Studio 2015\Projects\SAES\SAES\SAES.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.35

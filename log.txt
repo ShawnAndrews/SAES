@@ -1,0 +1,10 @@
+- documentation on classes
+- encapsulate SAES constants class into namespace
+
+- fix chart on cloud.saportfolio.ca
+
+- learn about exception inheritence and shared_ptr with vector
+
+kk thanks
+
+Hello there wtf is this shit
